@@ -1,0 +1,24 @@
+.param Vin=24
+.param Vout=12
+.param fs=100k
+.param Pout=10
+.param Iout={Pout/Vout}
+.param DeltaI=0.6
+.param DeltaV=0.05
+.param R={Vout/Iout}
+
+
+; Duty Cycle
+.param D={Vout/Vin}
+.param T={1/fs}
+.param Ton={D*T}
+.param Toff={(1-D)*T}
+
+; Inductor and Capacitor calculation
+.param L={(Vin - Vout)*D/(DeltaI*fs)}
+.param C={DeltaI/(8*DeltaV*fs)}
+
+; Gate drive voltage and transition times
+.param Vdrive=10
+.param trise=10n
+.param tfall=10n
