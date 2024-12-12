@@ -1,1 +1,1 @@
-# buck-converter
+# Power Electronics (Buck Converter and Three Phase Inverter)
