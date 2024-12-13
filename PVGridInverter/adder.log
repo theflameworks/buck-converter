@@ -1,0 +1,5 @@
+Stray ".ends" card: .ends
+LTspice 24.0.12 for Windows
+Circuit: .subckt adder 1 2 3
+Start Time: Fri Dec 13 22:22:04 2024
+Fatal Error: b1: Unknown circuit node: "1" requested in behavioral source

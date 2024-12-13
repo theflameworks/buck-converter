@@ -1,0 +1,8 @@
+.subckt dq_to_abc d q theta a b c
+B1 alpha 0 V=(cos(V(theta))*V(d))-(sin(V(theta))*V(q))
+B2 beta 0 V=(sin(V(theta))*V(d))+(cos(V(theta))*V(q))
+B3 a 0 V=V(alpha)+V(zero)
+B4 b 0 V=(-1/2)*V(alpha)+(sqrt(3)/2)*V(beta)+V(zero)
+V1 zero 0 1
+B5 c 0 V=(-1/2)*V(alpha)-(sqrt(3)/2)*V(beta)+V(zero)
+.ends dq_to_abc

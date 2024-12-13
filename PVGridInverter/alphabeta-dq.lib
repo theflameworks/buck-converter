@@ -1,0 +1,3 @@
+.subckt alphabetadq alpha beta zero theta q
+B2 q 0 V=-1*V(alpha)*sin(V(theta))+V(beta)*cos(V(theta))+0*V(zero)
+.ends alphabetadq

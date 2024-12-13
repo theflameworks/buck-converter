@@ -3,8 +3,8 @@
 .param fs=100k
 .param Pout=10
 .param Iout={Pout/Vout}
-.param DeltaI=0.6
-.param DeltaV=0.05
+.param DeltaI=0.083
+.param DeltaV=0.12
 .param R={Vout/Iout}
 
 

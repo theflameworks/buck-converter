@@ -1,0 +1,26 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\ubai\OneDrive - UGM 365\UG-Electrical Engineering\SEMESTER 9\TKE215204 Power Electronics\Final Project\BuckConverter\CLbuckconverter.asc
+Start Time: Fri Dec 13 23:05:10 2024
+Questionable use of curly braces in "b1 2 0  v={{k}*v(1)}"
+    Error: undefined symbol in: "(k)*[v](1)"
+Questionable use of curly braces in "b1 2 0  v={{k}*v(1)}"
+    Error: undefined symbol in: "(k)*[v](1)"
+Questionable use of curly braces in "b1 n001 0 v={v(1)}"
+    Error: undefined symbol in: "[v](1)"
+Questionable use of curly braces in "b2 2 0 v={i(l1)}"
+    Error: undefined symbol in: "[i](l1)"
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(adder:1)
+Ignoring empty pin current: Ix(adder:2)
+Ignoring empty pin current: Ix(k_proportional:1)
+Ignoring empty pin current: Ix(subtractor:1)
+Ignoring empty pin current: Ix(subtractor:2)
+Ignoring empty pin current: Ix(k_integral:1)
+Ignoring empty pin current: Ix(int:1)
+Total elapsed time: 0.411 seconds.
+

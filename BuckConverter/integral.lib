@@ -1,0 +1,6 @@
+.subckt integral 1 2
+B1 N001 0 V={V(1)}
+B2 2 0 V={I(L1)}
+L1 N002 0 1
+R1 N002 N001 1p
+.end integral

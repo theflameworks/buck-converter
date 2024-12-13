@@ -1,0 +1,5 @@
+.subckt 3phase a b c
+V1 a 0 SINE(0 {V} 50 0 0 0)
+V2 b 0 SINE(0 {V} 50 0 0 -120)
+V3 c 0 SINE(0 {V} 50 0 0 120)
+.ends 3phase
